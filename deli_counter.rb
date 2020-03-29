@@ -1,1 +1,11 @@
-# Write your code here.
+katz_deli = []
+
+def line(katz_deli)
+  customer_num = katz_deli.length + 1
+  if katz_deli.length > 0
+    puts "You are number #{customer_num} in line."
+  else
+    return "The line is empty."
+  end
+end
+  
