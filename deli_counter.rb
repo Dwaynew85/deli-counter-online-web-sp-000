@@ -5,7 +5,6 @@ def line(katz_deli)
   if katz_deli.length > 0
     puts "You are number #{customer_num} in line."
   else
-    return "The line is empty."
+    return "The line is currently empty."
   end
 end
-  
